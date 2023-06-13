@@ -11,13 +11,13 @@ const Cart = () => {
       <Banner content="롯데카드" />
       <Banner content="현대카드" />
       <Banner content="삼성카드" />
-      <RedButton color="red" />
-      <RedButton color="blue" />
+      <Btn color="red" />
+      <Btn color="blue" />
     </div>
   );
 };
 
-const RedButton = ({ color }) => {
+const Btn = ({ color }) => {
   return <button style={{ background: color }}>빨간 버튼</button>;
 };
 
